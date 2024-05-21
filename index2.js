@@ -49,9 +49,9 @@ function setInitialColor() {
 
   if (hours >= 7 && hours < 9) {
     setColor(...colors.orange);
-  } else if (hours >= 9 && hours < 17) {
+  } else if (hours >= 9 && hours < 15) {
     setColor(...colors.lightBlue);
-  } else if (hours >= 17 && hours < 22) {
+  } else if (hours >= 15 && hours < 22) {
     setColor(...colors.red);
   } else {
     setColor(...colors.off);
